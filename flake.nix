@@ -28,9 +28,6 @@
                   inkscape
                   xca
                 ];
-                # GIMP has no nixpkgs build for macOS; the base flake installs
-                # Homebrew declaratively (nix-homebrew) when a cask is listed.
-                casks = [ "gimp" ];
               };
             }
           )

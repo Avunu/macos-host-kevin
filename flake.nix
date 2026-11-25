@@ -27,6 +27,8 @@
                 extraPackages = with pkgs; [
                   inkscape
                   xca
+                  claude-code
+                  omniwm
                 ];
               };
             }
